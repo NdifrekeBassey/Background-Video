@@ -18,5 +18,5 @@ btn.addEventListener("click", () => {
 });
 
 window.addEventListener("load", () => {
-    preloader.style.zIndex = "-999";
+    preloader.style.display = "none"; // Hide preloader instead of changing z-index
 });
